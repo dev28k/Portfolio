@@ -1,0 +1,60 @@
+# Node modules
+node_modules/
+
+# Dependency directory
+pnpify/
+
+# Cache directory
+.cache/
+
+# Local build output
+dist/
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.sublime-project
+*.sublime-workspace
+*.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Build files
+build/
+*.pid
+*.out
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ESLint
+.eslintcache
+.eslint-*.json
+
+# Jest
+.coverage/
+jest.config.js
+
+# TypeScript
+*.tsbuildinfo
+
+# Yarn
+.yarn/
+!.yarnrc
+.yarnrc.yml
+.pnp.*
+yarn-error.log
+.lock
