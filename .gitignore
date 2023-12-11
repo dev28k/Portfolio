@@ -8,7 +8,7 @@ pnpify/
 .cache/
 
 # Local build output
-# dist/
+dist/
 
 # Logs
 logs/
