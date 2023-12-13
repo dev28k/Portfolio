@@ -27,6 +27,9 @@ import {
   reactBootstrap,
   coverImage,
   fashionCover,
+  foodCover,
+  inceptionCover,
+  resortCover,
 } from "../assets";
 
 export const navLinks = [
@@ -283,7 +286,73 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
+    image: foodCover,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Inception Tech",
+    description:
+      "Designed and developed an e-commerce platform for gadgets and accessories, featuring a user-friendly CMS for efficient management.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ecommerce",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "web",
+        color: "green-text-gradient",
+      },
+    ],
+    image: inceptionCover,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Dejani Resort",
+    description:
+      "Elevating resort experiences with an enchanting frontend, seamless API, and Mongo-backed architecture—showcasing tranquil retreats and deluxe accommodations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "web",
+        color: "green-text-gradient",
+      },
+    ],
+    image: resortCover,
     source_code_link: "https://github.com/",
   },
 ];

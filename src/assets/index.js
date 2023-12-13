@@ -33,6 +33,9 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import coverImage from "./coverImage.png";
 import fashionCover from "./fashionCover.png";
+import foodCover from "./foodCover.png";
+import inceptionCover from "./inceptionCover.png";
+import resortCover from "./resortCover.png";
 
 export {
   logo,
@@ -67,4 +70,7 @@ export {
   reactBootstrap,
   coverImage,
   fashionCover,
+  foodCover,
+  inceptionCover,
+  resortCover,
 };
