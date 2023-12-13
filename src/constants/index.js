@@ -315,7 +315,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "web",
+        name: "website",
         color: "green-text-gradient",
       },
     ],
@@ -348,7 +348,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "web",
+        name: "website",
         color: "green-text-gradient",
       },
     ],
