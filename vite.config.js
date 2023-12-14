@@ -12,5 +12,8 @@ export default defineConfig({
       // Add any aliases if needed
     },
     extensions: [".mjs", ".js", ".ts", ".jsx", ".tsx", ".json"],
+    build: {
+      chunkSizeWarningLimit: 500, // Set your desired limit in kilobytes
+    },
   },
 });
